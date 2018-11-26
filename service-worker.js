@@ -25,7 +25,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'vili.V9';
+var CACHE_NAME = 'vili.V10';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
