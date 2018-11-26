@@ -3,6 +3,11 @@ var files = [
   "/app_ViliCapas/manifest.json",
   "/app_ViliCapas/css/style.css",
   "/app_ViliCapas/imagens/bannerfull.png",
+  "/app_ViliCapas/imagens/bannertarja.png",
+  "/app_ViliCapas/imagens/botaocarrinho.png",
+  "/app_ViliCapas/imagens/botaomenu.png",
+  "/app_ViliCapas/imagens/logo.png",
+
   
 ];
 // dev only
