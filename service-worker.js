@@ -9,12 +9,13 @@ var files = [
   "/app_ViliCapas/imagens/logo.png",
   "/app_ViliCapas/imagens/Produtopreto.png",
   "/app_ViliCapas/imagens/Produtorosa.png",
-  "/app_ViliCapas/images/icons/icon-32x32.png",
+  "/app_ViliCapas/images/icons/icon-72x72.png",
+  "/app_ViliCapas/images/icons/icon-96x96.png",
   "/app_ViliCapas/images/icons/icon-128x128.png",
   "/app_ViliCapas/images/icons/icon-144x144.png",
   "/app_ViliCapas/images/icons/icon-152x152.png",
   "/app_ViliCapas/images/icons/icon-192x192.png",
-  "/app_ViliCapas/images/icons/icon-256x256.png",
+  "/app_ViliCapas/images/icons/icon-384x384.png",
   "/app_ViliCapas/images/icons/icon-512x512.png",
   
 ];
@@ -25,7 +26,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'vili.V10';
+var CACHE_NAME = 'vili.V11';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
