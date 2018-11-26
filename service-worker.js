@@ -1,6 +1,7 @@
 var files = [
   "/app_ViliCapas/index.html",
   "/app_ViliCapas/manifest.json",
+  "/app_ViliCapas/css/style.css",
   
 ];
 // dev only
@@ -10,7 +11,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'vili.V6';
+var CACHE_NAME = 'vili.V7';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
