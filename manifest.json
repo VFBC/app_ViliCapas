@@ -3,7 +3,7 @@
   "short_name": "Vili Capas",
   "theme_color": "#e921f3",
   "background_color": "#008cff",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "./index.html",
   "start_url": "./index.html",
   "icons": [
