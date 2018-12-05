@@ -106,3 +106,18 @@ div{
 	background-color: blueviolet;
 }
 
+.preco{
+	color: deeppink;
+}
+
+.tituloproduto{
+	color: deeppink;
+}
+
+.botaocarrinho{		
+	font-size: 15px;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	
+}
