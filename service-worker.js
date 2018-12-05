@@ -7,6 +7,7 @@ var files = [
   "/app_ViliCapas/imagens/bannertarja.png",
   "/app_ViliCapas/imagens/botaocarrinho.png",
   "/app_ViliCapas/imagens/botaomenu.png",
+  "/app_ViliCapas/imagens/pproduto.png",
   "/app_ViliCapas/imagens/logo.png",
   "/app_ViliCapas/imagens/Produtopreto.png",
   "/app_ViliCapas/imagens/Produtorosa.png",
@@ -27,7 +28,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'vili.V15';
+var CACHE_NAME = 'vili.V16';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
